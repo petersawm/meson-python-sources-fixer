@@ -1,0 +1,7 @@
+-   id: meson-python-sources-fixer
+    name: check Python sources in meson.build
+    entry: meson-python-sources-fixer
+    language: python
+    always_run: true
+    pass_filenames: false
+    require_serial: true
